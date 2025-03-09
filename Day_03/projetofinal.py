@@ -24,7 +24,7 @@ escolha = input("voce escolhe 'esperar' ou 'levantar'").lower()
 if escolha == "esperar":
     print("voce morre de fome. GAME OVER")
 elif escolha == "levantar":
-    print("Voce tenta ficar de pé mas como voce tem fome seu ferro esta baixo e voce cai de bunda no chão")
+    print("Voce tenta ficar de pé mas como voce tem fome sua glicemia esta baixo e voce cai no chão")
     print("depois de alguns segundos voce se recupera e começa a andar")
     print("Depois do que pareceram horas voce se encontra em um vilarejo no nordeste")
     print("'eles não parecem com quem sabem fazer pizza', pensa voce")
