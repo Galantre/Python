@@ -1,44 +1,27 @@
 # 📌 Curso 100 dias de Python
 
-Breve descrição do projeto. Explique o objetivo e o que ele faz.
+100 Dias de Python é um curso na plataforma Udemy que tem o preceito de realizar um projeto por dia.
 
 ## 🚀 Tecnologias Utilizadas
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
-- Python 3.x
-- Bibliotecas adicionais (se houver, liste-as)
-
-## 📂 Estrutura do Projeto
-
-```
-projeto/
-│-- src/                # Código-fonte do projeto
-│   │-- main.py         # Arquivo principal
-│   │-- utils.py        # Funções auxiliares
-│-- tests/              # Testes unitários
-│-- requirements.txt    # Dependências do projeto
-│-- README.md           # Documentação do projeto
-```
+- Python 3.10
 
 ## 📦 Instalação
 
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/Galantre/Python.git
    ```
 2. Acesse a pasta do projeto:
    ```sh
-   cd seu-repositorio
+   cd Python
    ```
 3. Crie um ambiente virtual e ative-o:
    ```sh
    python -m venv venv
    source venv/bin/activate  # No Windows: venv\Scripts\activate
-   ```
-4. Instale as dependências:
-   ```sh
-   pip install -r requirements.txt
    ```
 
 ## ▶️ Como Executar
@@ -63,4 +46,4 @@ Este projeto está sob a licença MIT. Sinta-se à vontade para usá-lo e modifi
 
 ---
 
-_Feito com ❤️ por [Seu Nome](https://github.com/seu-usuario)_
+_Feito com ❤️ por Matheus(https://github.com/Galantre)_
