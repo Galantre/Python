@@ -12,7 +12,7 @@ while continua == "s":
     verba = input("quanto?\n")
     intverba = int(verba)
     lances[nome] = intverba
-    continua = input("Mais alguém? S/N\n")
+    continua = input("Mais alguém? S/N\n").lower()
     print ("\n" * 15)
 
 for i in lances:
