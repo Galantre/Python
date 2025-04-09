@@ -31,13 +31,13 @@ while continuar == "y":
         Mais_cartas = input("Mais uma carta? Y/N\n").lower()
 
     if sum(cartas_viradas) > 21 and sum(cartas_dealer) == 21 or sum(cartas_viradas) == sum(cartas_dealer):
-        print("Empate\nO total do dealer era de : " + str(sum(cartas_dealer)))
+        print("Empate\nO total do dealer era de : " + str(sum(cartas_dealer)) + "\nCartas dp dealer : " + str(cartas_dealer))
 
     elif sum(cartas_viradas) > 21 or sum(cartas_dealer) == 21 or sum(cartas_dealer) > sum(cartas_viradas):
-        print("Perdeu Playboy!!!\nO total do dealer era de : " + str(sum(cartas_dealer)))
+        print("Perdeu Playboy!!!\nO total do dealer era de : " + str(sum(cartas_dealer)) + "\nCartas dp dealer : " + str(cartas_dealer))
 
     else:
         if sum(cartas_viradas) > sum(cartas_dealer) or sum(cartas_dealer) > 21:
-            print("Voce ganhou\nA total do dealer era de : " + str(sum(cartas_dealer)))
+            print("Voce ganhou\nA total do dealer era de : " + str(sum(cartas_dealer)) + "\nCartas dp dealer : " + str(cartas_dealer))
 
     continuar = input("Deseja jogar denovo?").lower()
