@@ -1,6 +1,9 @@
 import random
+from arte import logo
+
 numero = random.choice(range(1,101))
 print(f"Psss seu numero é {numero}")
+print(logo)
 print("Bem vindo ao meu adivinhe um numero!!!\nO numero esta entre 1 e 100")
 
 vidas = 0
